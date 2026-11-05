@@ -61,8 +61,8 @@ Le të jetë:
 **Kufizimet:**
 
 1. Brenda një jave çdo lojtar del saktësisht një herë.
-2. Çdo grup ka saktësisht `p` lojtarë.
-3. Dy lojtarë takohen në të njëjtin grup të shumtën një herë gjatë gjithë javëve.
+2. Çdo grup ka saktësisht 4 lojtarë.
+3. Dy lojtarë takohen në të njëjtin grup me se shumti një herë gjatë gjithë javëve.
 
 
 ## 4. Funksioni objektiv
