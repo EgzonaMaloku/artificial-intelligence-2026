@@ -123,7 +123,6 @@ Algoritmi:
 2. Për vendin e radhës provo kandidatët:
    - lojtari nuk duhet të jetë përdorur këtë javë;
    - lojtari nuk duhet të jetë takuar më parë me asnjë nga lojtarët e grupit aktual;
-   - kandidati duhet t'i respektojë rregullat e thyerjes së simetrisë.
 3. Nëse kandidati është i vlefshëm, vendose, shëno takimet dhe vazhdo më thellë.
 4. Nëse asnjë kandidat nuk funksionon, kthehu mbrapa (backtrack): hiq lojtarin e fundit dhe takimet e tij.
 5. Kur janë mbushur të gjitha javët, zgjidhja është gjetur.
