@@ -111,18 +111,6 @@ Pa këtë krasitje, BFS do të duhej të mbante në radhë deri në `9^d` gjendj
 
 **Unikaliteti:** me `--all` BFS vazhdon derisa radha të zbrazet dhe numëron të gjitha zgjidhjet. Kështu verifikohet që secili nga tri sudoku-t ka saktësisht një zgjidhje.
 
-## 7. Nivelet Easy, Medium, Hard
-
-Sudoku-t janë në `puzzles.py`:
-
-| Niveli | Burimi | Numra të dhënë |
-|---|---|---|
-| Easy | shembulli i artikullit "Sudoku" në Wikipedia | 30 |
-| Medium | gjeneruar nga një rrjetë e plotë duke hequr numra me seed 7, duke ruajtur zgjidhjen unike | 26 |
-| Hard | Arto Inkala (2010), i njohur si "sudoku më i vështirë në botë" | 21 |
-
-Çdo sudoku tjetër mund të jepet me `--puzzle`, si 81 karaktere ku `0` ose `.` është qelizë bosh.
-
 ## 8. Rezultatet
 
 Ekzekutimi me `--all`, që e shteron gjithë pemën dhe numëron zgjidhjet. Meqë të gjitha zgjidhjet janë në thellësinë e fundit, BFS e gjen zgjidhjen vetëm pasi i ka zgjeruar pothuajse të gjitha nivelet, prandaj numrat pa `--all` janë gati të njëjtë.
