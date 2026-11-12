@@ -48,13 +48,9 @@ Për kërkimin, problemi shndërrohet në problem kërkimi në hapësirën e gje
 | Variablat | `X[r][c]`: vlera në rreshtin `r` dhe kolonën `c`, për çdo qelizë bosh (`k` variabla, `k` = numri i qelizave bosh) |
 | Domeni | `{1, 2, ..., 9}`; për qelizat e dhëna domeni është vlera e dhënë |
 | Kufizimet | 27 njësi (9 rreshta, 9 kolona, 9 blloqe) ku të gjitha vlerat janë të ndryshme; çdo qelizë ka 20 "fqinjë" me të cilët nuk mund të ketë vlerë të njëjtë |
-| Gjendja | rrjeta e plotësuar pjesërisht, e ruajtur si 81 bajte (`0` = qelizë bosh) |
 | Gjendja fillestare | sudoku i dhënë |
-| Veprimi | vendos vlerën `v` në një qelizë bosh, vetëm nëse `v` nuk ekziston në rreshtin, kolonën dhe bllokun e saj |
 | Gjendja finale | të gjitha 81 qelizat janë plotësuar dhe asnjë kufizim nuk shkelet |
 | Kostoja e hapit | 1 (çdo hap plotëson një qelizë) |
-
-Kandidatët e një qelize ruhen si bitmaskë: `kandidatët = {1..9} − rreshti − kolona − blloku`, kështu që llogariten me një veprim të vetëm mbi bita.
 
 ## 4. Funksioni objektiv
 
