@@ -55,7 +55,6 @@ Le të jetë:
 | Elementi | Përshkrimi |
 |---|---|
 | Variablat | `x[w][g][s]`: lojtari që zë vendin `s` në grupin `g` të javës `w` |
-| Numri i variablave | `w · g · p = 32w` |
 | Domeni | `{0, 1, ..., 31}` |
 
 **Kufizimet:**
