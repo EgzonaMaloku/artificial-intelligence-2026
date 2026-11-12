@@ -59,13 +59,11 @@ Për një sudoku tabel të plotë, numri i shkeljeve të kufizimeve:
 f = Σ (mbi 27 njësitë) Σ (v = 1..9) max(0, numri(v në njësi) − 1)
 ```
 
-Rrjeta është zgjidhje kur është e plotë dhe `f = 0`. Qëllimi është:
+ Qëllimi është:
 
 ```
-gjej rrjetën e plotë me  f = 0  që i ruan numrat e dhënë
+gjej sudokun  e plotë me  f = 0, numri i shkeljeve te kufizimeve
 ```
-
-Në kërkim, `f` mbahet gjithmonë 0, sepse një vlerë vendoset vetëm nëse nuk krijon përsëritje. Prandaj testi i qëllimit reduktohet në "a ka mbetur ndonjë qelizë bosh". Validatori (`sudoku_validator.py`) e llogarit `f` për çdo zgjidhje të gjetur si kontroll i pavarur.
 
 ## 5. Landscape (hapësira e kërkimit)
 
