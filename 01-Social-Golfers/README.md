@@ -96,21 +96,6 @@ Renditja e grupeve brenda javës nuk ka rëndësi, prandaj pjesëtojmë me `8!`:
 32! / ((4!)^8 · 8!) ≈ 5.9 × 10^19   ndarje të ndryshme për një javë
 ```
 
-Për `w` javë, me javën e parë të fiksuar:
-
-```
-|S| ≈ (5.9 × 10^19)^(w − 1)
-```
-
-| w | Madhësia e hapësirës |
-|---|---|
-| 2 | ≈ 5.9 × 10^19 |
-| 5 | ≈ 1.2 × 10^79 |
-| 7 | ≈ 4.2 × 10^118 |
-| 10 | ≈ 8.7 × 10^177 |
-
-Me reprezentimin e papërpunuar (pa thyer simetrinë), çdo javë ka `32! ≈ 2.6 × 10^35` mundësi, pra `(2.6 × 10^35)^w`.
-
 
 ## 6. DFS me backtracking
 
