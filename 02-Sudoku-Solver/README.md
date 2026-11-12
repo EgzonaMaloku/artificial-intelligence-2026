@@ -75,9 +75,6 @@ Për një sudoku me `k` qeliza bosh, pa asnjë kufizim, çdo qelizë ka 9 mundë
 ```
 |S| = 9^k
 ```
-
-Për rrjetën krejt bosh kjo është `9^81 ≈ 1.97 × 10^77`, kurse numri i rrjetave të plota të vlefshme është vetëm `6 670 903 752 021 072 936 960 ≈ 6.67 × 10^21`.
-
 Nëse çdo qelizë merr vetëm kandidatët që nuk bien ndesh me numrat e dhënë, hapësira zvogëlohet në prodhimin e numrit të kandidatëve:
 
 ```
@@ -88,17 +85,9 @@ Programi i llogarit të dyja vlerat për çdo sudoku:
 
 | Niveli | Numra të dhënë | Qeliza bosh `k` | `9^k` | Me kandidatët fillestarë |
 |---|---|---|---|---|
-| Easy | 30 | 51 | 10^48.7 | 10^22.6 |
-| Medium | 26 | 55 | 10^52.5 | 10^28.3 |
-| Hard | 21 | 60 | 10^57.3 | 10^37.0 |
-
-Pema e kërkimit ka thellësi `k` (një nivel për çdo qelizë bosh) dhe faktor degëzimi deri në 9. Të gjitha zgjidhjet janë në të njëjtën thellësi `k`.
-
-Vetitë e landscape-it:
-
-- **Zgjidhja zakonisht është unike:** një sudoku i mirë ka saktësisht një rrjetë me `f = 0`, kështu që në gjithë hapësirën ka vetëm një pikë qëllimi.
-- **Shumë rrugë pa dalje:** shumica e gjendjeve të pjesshme duken të vlefshme, por më vonë del një qelizë pa asnjë kandidat.
-- **Vështirësia nuk varet vetëm nga numri i qelizave bosh,** por nga sa shpejt kufizimet i ngushtojnë kandidatët. Prandaj Hard ka shumë më shumë rrugë pa dalje se Easy.
+| Easy | 30 | 51 | 9^51 
+| Medium | 26 | 55 | 9^55 
+| Hard | 21 | 60 | 9^60 
 
 ## 6. BFS me backtracking
 
