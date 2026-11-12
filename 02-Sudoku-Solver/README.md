@@ -166,10 +166,3 @@ python sudoku_solver.py --level hard --order fixed
 python sudoku_solver.py --all
 python sudoku_solver.py --puzzle "530070000600195000098000060800060003400803001700020006060000280000419005000080079"
 ```
-
-Me Docker:
-
-```bash
-docker build -t sudoku_solver .
-docker run --rm sudoku_solver --level all --all
-```
