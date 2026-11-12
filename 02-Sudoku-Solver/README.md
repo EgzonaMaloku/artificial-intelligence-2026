@@ -75,12 +75,6 @@ Për një sudoku me `k` qeliza bosh, pa asnjë kufizim, çdo qelizë ka 9 mundë
 ```
 |S| = 9^k
 ```
-Nëse çdo qelizë merr vetëm kandidatët që nuk bien ndesh me numrat e dhënë, hapësira zvogëlohet në prodhimin e numrit të kandidatëve:
-
-```
-|S'| = Π (mbi qelizat bosh) |kandidatët(qeliza)|
-```
-
 Programi i llogarit të dyja vlerat për çdo sudoku:
 
 | Niveli | Numra të dhënë | Qeliza bosh `k` | `9^k` | Me kandidatët fillestarë |
