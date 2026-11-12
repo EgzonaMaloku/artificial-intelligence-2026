@@ -39,7 +39,6 @@ Sudoku modelohet si problem me kufizime (Constraint Satisfaction Problem):
 - çdo variabël merr një vlerë nga 1 deri 9;
 - kufizimet kërkojnë që vlerat në çdo rresht, kolonë dhe bllok të jenë të ndryshme (kufizim *all-different*).
 
-Për kërkimin, problemi shndërrohet në problem kërkimi në hapësirën e gjendjeve: nisemi nga rrjeta e dhënë dhe në çdo hap plotësojmë edhe një qelizë, derisa rrjeta të jetë e plotë dhe e vlefshme.
 
 ## 3. Reprezentimi
 
