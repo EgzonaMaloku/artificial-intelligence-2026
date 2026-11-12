@@ -55,9 +55,8 @@ Sudoku modelohet si problem me kufizime (Constraint Satisfaction Problem):
 
 Për një sudoku tabel të plotë, numri i shkeljeve të kufizimeve:
 
-```
-f = Σ (mbi 27 njësitë) Σ (v = 1..9) max(0, numri(v në njësi) − 1)
-```
+<img width="718" height="280" alt="image" src="https://github.com/user-attachments/assets/9bdc43d4-2fe3-4f2d-bcb4-72ec60a74a61" />
+
 
  Qëllimi është:
 
