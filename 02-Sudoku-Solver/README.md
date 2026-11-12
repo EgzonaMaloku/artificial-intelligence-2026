@@ -53,7 +53,7 @@ Sudoku modelohet si problem me kufizime (Constraint Satisfaction Problem):
 
 ## 4. Funksioni objektiv
 
-Për një rrjetë të plotë, numri i shkeljeve të kufizimeve:
+Për një sudoku tabel të plotë, numri i shkeljeve të kufizimeve:
 
 ```
 f = Σ (mbi 27 njësitë) Σ (v = 1..9) max(0, numri(v në njësi) − 1)
